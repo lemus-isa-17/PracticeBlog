@@ -1,0 +1,16 @@
+.vertical-menu{
+    position:absolute;
+    right:1%;
+    padding-top: 15%;
+}
+
+.vertical-menu button{
+    background-color: rgb(224, 153, 164);;
+    color:rgb(252, 251, 246);
+    display:block;
+    width: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px;
+}

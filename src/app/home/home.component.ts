@@ -9,6 +9,6 @@ import { Home } from '../home';
 export class HomeComponent {
   home: Home = {
     page: 1,
-    title: 'front'
+    title: 'Renaissance Girl'
   };
 }

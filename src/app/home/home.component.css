@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(252, 251, 246);
+    position:absolute;
+    height:100%;
+    width: 100%;    
+}
+h1 {
+    color: rgb(224, 153, 164);
+    padding-left: 3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    font-size: 50px;
+}
+.main-block{
+    display:block;
+    background-image: url("pearls.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 60%;
+    margin-left: 1%;
+}
