@@ -1,20 +1,51 @@
 .vertical-menu{
-    position:absolute;
-    right:1%;
-    padding-top: 12%;
+    height: 50px;
+    width: 100%;
+    background-image: url("pearls.jpg");
+    background-size: cover;
+    position: absolute;
+    margin-top: 100px;
 }
 
-.vertical-menu a{
+.vertical-menu nav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.vertical-menu nav a{
+    line-height: 50px;
+    color: white;
+    padding: 0 40px;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+/* .vertical-menu{
+    position:absolute;
+    right:1%;
+    margin-top: 1%;
+} */
+
+/* .vertical-menu a{
+
     background-color: rgb(224, 153, 164);
     color:rgb(252, 251, 246);
     display:block;
-    width: 200px;
+    width: 150px;
     padding: 10px;
-    margin: 15px;
+    margin:15px;
+
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     text-decoration:none;
+    letter-spacing: 3px;
 
     outline-color: gray;
     outline-width: 1px;
@@ -29,7 +60,9 @@
 
 .vertical-menu a:active{
     outline-style: inset;
-}
+} */
+
+
 
 
 
