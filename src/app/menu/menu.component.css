@@ -1,16 +1,35 @@
 .vertical-menu{
     position:absolute;
     right:1%;
-    padding-top: 15%;
+    padding-top: 12%;
 }
 
-.vertical-menu button{
-    background-color: rgb(224, 153, 164);;
+.vertical-menu a{
+    background-color: rgb(224, 153, 164);
     color:rgb(252, 251, 246);
     display:block;
     width: 200px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
     padding: 10px;
     margin: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration:none;
+
+    outline-color: gray;
+    outline-width: 1px;
+    outline-style: outset;
 }
+
+.vertical-menu a:hover{
+    background-color: rgb(154, 84, 95);
+    opacity: 0.85;
+    text-decoration: none;
+}
+
+.vertical-menu a:active{
+    outline-style: inset;
+}
+
+
+

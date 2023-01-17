@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(252, 251, 246);
+    background-color: rgb(252, 251, 246); 
     position:absolute;
     height:100%;
     width: 100%;    
@@ -8,15 +8,17 @@ h1 {
     color: rgb(224, 153, 164);
     padding-left: 3%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     font-weight: 300;
     font-size: 50px;
+    text-decoration-color: 1px black solid;
 }
 .main-block{
     display:block;
     background-image: url("pearls.jpg");
-    background-repeat: no-repeat;
+    opacity: 0.6;
     background-size: cover;
     width: 90%;
     height: 60%;
-    margin-left: 1%;
+    margin-left: 2%;
 }
